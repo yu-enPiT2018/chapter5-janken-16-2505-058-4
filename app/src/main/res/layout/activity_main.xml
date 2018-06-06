@@ -15,4 +15,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/choki"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="229dp" />
+
 </android.support.constraint.ConstraintLayout>
